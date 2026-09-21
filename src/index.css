@@ -36,3 +36,47 @@ button {
 ::selection {
   background: rgba(34, 211, 238, 0.25);
 }
+/* KaTeX / AI Math Rendering */
+.ai-markdown .katex {
+  font-size: 1.05em;
+}
+
+.ai-markdown .katex-display {
+  margin: 1rem 0;
+  padding: 0.75rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  text-align: center;
+}
+
+.ai-markdown .katex-display > .katex {
+  white-space: nowrap;
+}
+
+.ai-markdown p {
+  margin: 0.45rem 0;
+}
+
+.ai-markdown ul,
+.ai-markdown ol {
+  margin: 0.5rem 0;
+  padding-left: 1.4rem;
+}
+
+.ai-markdown li {
+  margin: 0.25rem 0;
+}
+
+.ai-markdown strong {
+  font-weight: 700;
+}
+
+.ai-markdown code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.ai-markdown pre {
+  overflow-x: auto;
+  max-width: 100%;
+}
